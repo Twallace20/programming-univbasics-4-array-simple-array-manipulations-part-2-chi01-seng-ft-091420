@@ -4,9 +4,11 @@ end
 
 def using_insert(array, element)
   new_array = []
-  new_arrays = array.insert(element)
-  array.length.times dp |index|
-   new_array.push(array[index] + 3)
+  array =[1,2, 3, 4]
+  element = [6]
+  arrays = (array) + (element)
+  a = array.insert(element)
+  lengths = a.length
 end 
 
 def using_uniq(haircuts)
