@@ -4,6 +4,7 @@ end
 
 def using_insert(list_of_programming_languages , another_language)
   t = list_of_programming_languages
+  d = another_language
   new_array = t.insert(another_language)
 end 
 
