@@ -3,6 +3,7 @@ def using_concat(my_favorite_things, more_favs)
 end
 
 def using_insert(array, another_language)
+  new_array|4| = "Python"
   4.times do |another_language|
   puts another_language
 end 
