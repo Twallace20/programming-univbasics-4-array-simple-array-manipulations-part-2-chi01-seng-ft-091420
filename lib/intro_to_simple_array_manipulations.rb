@@ -3,7 +3,7 @@ def using_concat(my_favorite_things, more_favs)
 end
 
 def using_insert(array, another_language)
-  new_array = ["Ruby", "HTML", "CSS","Python", "Me", "Yaya", "Baba", "My woman"]
+  new_array = ["Ruby", "HTML", "CSS","ME", "Python", "Yaya", "Baba", "My woman"]
   
 end 
 
