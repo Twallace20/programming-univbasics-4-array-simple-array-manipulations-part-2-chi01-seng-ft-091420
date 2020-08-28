@@ -6,6 +6,7 @@ def using_insert(array, element)
   4.times do |element|
   puts array
 end 
+end 
 
 def using_uniq(haircuts)
   new_array = haircuts.uniq 
