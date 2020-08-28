@@ -4,7 +4,7 @@ end
 
 def using_insert(list_of_programming_languages, another_language)
   new_array = list_of_programming_languages.insert(another_language)
-  p new_array.length
+  new_array.size
 end
 
 def using_uniq(haircuts)
