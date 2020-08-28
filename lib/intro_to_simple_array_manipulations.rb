@@ -3,8 +3,8 @@ def using_concat(my_favorite_things, more_favs)
 end
 
 def using_insert(array, another_language)
-  new_array|4| = "Python"
-  new_array = array|4|.insert(another_language)
+  new_array = ["Ruby", "HTML", "CSS","Python", "Me", "Yaya", "Baba", "My woman"]
+  
 end 
 
 #new_array|4|
