@@ -14,10 +14,10 @@ def using_flatten(instruments)
   flat_array = instruments.flatten 
 end
 
-def usind_delete(instructors, steven)
-  no_offense_steven = instructors.delete
+def usind_delete(instructors, "Steven")
+  no_offense_steven = instructors.delete["Steven"]
 end
 
-def using_delete_at(famous_robots)
-  deleted_robot = famous_robots.delete_at
+def using_delete_at(famous_robots, 2)
+  deleted_robot = famous_robots.delete_at[2]
 end
