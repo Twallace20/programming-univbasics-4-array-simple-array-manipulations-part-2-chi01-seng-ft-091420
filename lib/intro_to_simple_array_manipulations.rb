@@ -7,4 +7,17 @@ def using_insert(list_of_programming_languages, another_language)
 end
 
 def using_uniq(haircuts)
-  new_array = 
+  new_array = haircuts.uniq 
+end
+
+def using_flatten(instruments)
+  flat_array = instruments.flatten 
+end
+
+def usind_delete(instructors, "Steven")
+  no_offense_steven = instructors.delete("Steven")
+end
+
+def using_delete_at(famous_robots, 2 )
+  deleted_robot = famous_robots.delete_at(2)
+end
