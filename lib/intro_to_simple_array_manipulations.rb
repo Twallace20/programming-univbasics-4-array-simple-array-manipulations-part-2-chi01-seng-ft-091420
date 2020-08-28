@@ -3,7 +3,7 @@ def using_concat(my_favorite_things, more_favs)
 end
 
 def using_insert(array, element)
-  new_array = element.insert(array|4|)
+  new_array = element.insert(array|index4|)
 end 
 
 def using_uniq(haircuts)
