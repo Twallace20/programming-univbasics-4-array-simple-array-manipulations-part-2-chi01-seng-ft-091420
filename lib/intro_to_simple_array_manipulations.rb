@@ -2,11 +2,11 @@ def using_concat(my_favorite_things, more_favs)
   all_my_favs = my_favorite_things.concat(more_favs)
 end
 
-def using_insert(list_of_programming_languages , another_language)
+def using_insert(array, element)
   t = list_of_programming_languages.length
   d = another_language.length
-  new_array = list_of_programming_languages.insert(another_language)
-  new_array = (t) + (d)
+  new_array = array.insert(element)
+  
 end 
 
 def using_uniq(haircuts)
