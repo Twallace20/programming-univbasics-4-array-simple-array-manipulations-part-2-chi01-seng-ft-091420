@@ -3,9 +3,9 @@ def using_concat(my_favorite_things, more_favs)
 end
 
 def using_insert(list_of_programming_languages , another_language)
-  t = list_of_programming_languages
-  d = another_language
-  new_array = t.insert(another_language)
+  t = list_of_programming_languages.length
+  d = another_language.length
+  new_array = t.insert(d)
 end 
 
 def using_uniq(haircuts)
