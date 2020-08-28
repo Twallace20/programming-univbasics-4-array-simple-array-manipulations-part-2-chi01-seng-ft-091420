@@ -2,12 +2,14 @@ def using_concat(my_favorite_things, more_favs)
   all_my_favs = my_favorite_things.concat(more_favs)
 end
 
-def using_insert(array, element)
-  4.times do |element|
-  puts array
+def using_insert(array, another_language)
+  4.times do |another_language|
+  puts another_language
 end 
 end 
 
+#new_array|4|
+#new_array.length 
 def using_uniq(haircuts)
   new_array = haircuts.uniq 
 end
