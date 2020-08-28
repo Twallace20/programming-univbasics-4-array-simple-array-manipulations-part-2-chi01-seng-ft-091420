@@ -3,7 +3,7 @@ def using_concat(my_favorite_things, more_favs)
 end
 
 def using_insert(list_of_programming_languages , another_language)
-  new_array = [list_of_programming_languages].length.insert[another_language].length
+  new_array = [list_of_programming_languages].insert[another_language].length
   
 end
 
